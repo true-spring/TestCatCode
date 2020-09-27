@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pratique</title>
+    <link rel="stylesheet" href="red.css">
+    <link href="https://cdn.jsdelivr.net/npm/suggestions-jquery@20.3.0/dist/css/suggestions.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/suggestions-jquery@20.3.0/dist/js/jquery.suggestions.min.js"></script>
+
+</head>
+<body>
+
+<form action="#" class="address">
+    <p class="address-intro">Введите ваш адрес</p>
+    <input  id="address" name="address" type="text" class="btn-input">
+    <input id="submit" type="submit" value="Отправить" class="btn" disabled>
+
+</form>
+
+
+
+
+<script>
+    $("#address").suggestions({
+        token: "65d60963d16cef60193e4e24472286109f938f5f",
+        type: "ADDRESS",
+        onSelect: function(suggestion) {
+            $("#submit").attr("disabled", false);
+        }
+    });
+</script>
+
+
+</body>
+</html>

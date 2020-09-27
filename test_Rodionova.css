@@ -1,0 +1,40 @@
+
+.address{
+    background:#f3eef6;
+    width: 1000px;
+    padding: 200px;
+    box-sizing: border-box;
+}
+
+.btn{
+    border-radius: 15px;
+    width: 250px;
+    padding: 15px;
+    margin-top: 15px;
+    background: #ffd633;
+    border: 1px solid #ffcc00;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color:#39004d;
+    letter-spacing: 0.2em;
+}
+
+.btn:hover{
+    background:
+
+}
+
+.btn-input{
+    width: 800px;
+    padding: 15px;
+    border: 2px solid #ffcc00;
+}
+
+.address-intro{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#39004d;
+    font-size: 15px;
+}
+
